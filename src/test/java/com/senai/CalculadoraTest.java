@@ -17,9 +17,14 @@ public class CalculadoraTest {
             assertEquals(5, resultado);
         }
         @Test
-        void testarMultiplicação(){
+        void testarMultiplicaçao(){
             int resultado = calculadora.multiplicar(3, 2);
             assertEquals(6, resultado);
+        }
+        @Test
+        void testarDivisao(){
+            double resultado = calculadora.dividir(4.0, 2.0);
+            assertEquals(2.0, resultado);
         }
 }
  
