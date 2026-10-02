@@ -8,18 +8,18 @@ import org.junit.jupiter.api.Test;
  */
 public class CalculadoraTest {
         // anotação para dizer que é uma função de teste
-    @Test
-    void testarSoma(){
         Calculadora calculadora = new Calculadora();
-        int resultado = calculadora.somar(3, 2);
-        //metodo assert 
-        assertEquals(5, resultado);
-    }
-    @Test 
-    void testarMultiplicacao(){
-        Calculadora calculadora = new Calculadora();
-        int resultadoM = calculadora.multiplicar(3, 2);
-        assertEquals(6, resultadoM);
-    }
+
+        @Test 
+        void testarSoma(){
+            int resultado = calculadora.somar(3, 2);
+            //metodo comparação de resultado
+            assertEquals(5, resultado);
+        }
+        @Test
+        void testarMultiplicação(){
+            int resultado = calculadora.multiplicar(3, 2);
+            assertEquals(6, resultado);
+        }
 }
  
