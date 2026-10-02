@@ -90,7 +90,7 @@
 
                 <groupId>org.apache.maven.plugins</groupId>
 
-                <artifactId>Calculadora_DevOps</artifactId>
+                <artifactId>aula7</artifactId>
 
                 <version>3.5.4</version>
 
