@@ -7,9 +7,9 @@ import org.junit.jupiter.api.Test;
  * Unit test for simple App.
  */
 public class CalculadoraTest {
-        // anotação para dizer que é uma função de teste
         Calculadora calculadora = new Calculadora();
 
+        // anotação para dizer que é uma função de teste
         @Test 
         void testarSoma(){
             int resultado = calculadora.somar(3, 2);
